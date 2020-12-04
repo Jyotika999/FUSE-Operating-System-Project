@@ -1,0 +1,1640 @@
+
+bb_init()
+    conn:
+    proto_major = 7
+    proto_minor = 31
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = eee1c820
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = eee1b2a0
+    logfile = eee1c2d0
+    rootdir = /home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir
+    umask = 00000
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+
+bb_getattr(path="/.Trash", statbuf=0x93ffec40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/.Trash", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0x98e82c40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/.Trash-1000", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.xdg-volume-info", statbuf=0x93ffec40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/.xdg-volume-info", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c94002240
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c94002240
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/autorun.inf", statbuf=0x937fdc40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/autorun.inf", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_readdir(path="/", buf=0x940021c0, filler=0x990cbbc0, offset=0, fi=0x98e82c30)
+    readdir returned 0x0x7f2c94002270
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c94002240
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c94002240
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/bogus.txt", statbuf=0x937fdc40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/bogus.txt", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/bogus.txt"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333640
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e358
+    st_mtime = 0x5fc9ec30
+    st_ctime = 0x5fc9ec30
+
+bb_releasedir(path="/", fi=0x93ffec40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c94002240
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c94002240
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c84000ee0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84000ee0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x84000e60, filler=0x990cbbc0, offset=0, fi=0x93ffec30)
+    readdir returned 0x0x7f2c84000f10
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c84000ee0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84000ee0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93ffec40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c84000ee0
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84000ee0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f2c840090c0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x84009040, filler=0x990cbbc0, offset=0, fi=0x93ffec30)
+    readdir returned 0x0x7f2c840090f0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93ffec40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c840090c0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x84001000, filler=0x990cbbc0, offset=0, fi=0x93ffec30)
+    readdir returned 0x0x7f2c840090f0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93ffec40)
+    fi:
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    flags = 0x00000000
+    opendir returned 0x0x7f2c84011100
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+    keep_cache = 0
+    fh = 0x00007f2c84011100
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x84001110, filler=0x990cbbc0, offset=0, fi=0x93ffec30)
+    readdir returned 0x0x7f2c84011130
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c84011100
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84011100
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93ffec40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c84011100
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84011100
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93ffec30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c8c0011b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0011b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x8c001130, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c8c0011e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c8c0011b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0011b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c8c0011b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0011b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x93ffec30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c8c0011b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0011b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x8c0091f0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c8c0011e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c8c0011b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0011b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c8c0011b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+
+bb_opendir(path="/", fi=0x93ffec30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c8c0092f0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0092f0
+    lock_owner = 0x0000000000000000
+    fh = 0x00007f2c8c0011b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x8c009270, filler=0x990cbbc0, offset=0, fi=0x93ffec30)
+    readdir returned 0x0x7f2c8c009320
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c8c0092f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0092f0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93ffec40)
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c8c0092f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c8c0092f0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f2c840090c0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x98e82c10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x840015a0, filler=0x990cbbc0, offset=0, fi=0x93ffec30)
+    readdir returned 0x0x7f2c840090f0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x93ffec40)
+    fi:
+    flags = 0x00000000
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c84011100
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84011100
+    lock_owner = 0x0000000000000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x84001620, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c84011130
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c84011100
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84011100
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c84011100
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c84011100
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002360, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940023e0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002460, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940024e0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002560, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f2c940127f0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940025e0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c94012820
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c940127f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c940127f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002560, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940025e0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    fi:
+    opendir returned 0x0x7f2c940127f0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002560, filler=0x990cbbc0, offset=0, fi=0x98e82c30)
+    readdir returned 0x0x7f2c94012820
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c940127f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x98e82c40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c940127f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x937fdc30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c840090c0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x840016a0, filler=0x990cbbc0, offset=0, fi=0x98e82c30)
+    readdir returned 0x0x7f2c840090f0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c840090c0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c840090c0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940029f0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f2c940127f0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002a70, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c94012820
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c940127f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c940127f0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c940127f0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940029f0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x94002a70, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940029f0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_readdir(path="/", buf=0x940029f0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x937fdc40)
+    fi:
+
+bb_getattr(path="/autorun.inf", statbuf=0x98e82c40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/autorun.inf", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x93ffec10)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333639
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e366
+    st_mtime = 0x5fc9e358
+    st_ctime = 0x5fc9e358
+
+bb_getxattr(path = "/", name = "security.selinux", value = 0x94001e30, size = 255)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/", name = "system.posix_acl_default", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_opendir(path="/", fi=0x98e82c30)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f2c9400a7b0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_readdir(path="/", buf=0x940029f0, filler=0x990cbbc0, offset=0, fi=0x937fdc30)
+    readdir returned 0x0x7f2c9400a7e0
+calling filler with name .
+calling filler with name ..
+calling filler with name bogus.txt
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/bogus.txt", statbuf=0x93ffec40)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/bogus.txt", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/bogus.txt"
+    lstat returned 0
+    si:
+    st_dev = 2050
+    st_ino = 23333640
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5fc9e358
+    st_mtime = 0x5fc9ec30
+    st_ctime = 0x5fc9ec30
+
+bb_getxattr(path = "/bogus.txt", name = "security.selinux", value = 0x94001e30, size = 255)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/bogus.txt", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/bogus.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_getxattr(path = "/bogus.txt", name = "system.posix_acl_access", value = 0x00000000, size = 0)
+    bb_fullpath:  rootdir = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir", path = "/bogus.txt", fpath = "/home/sanssys/Desktop/FILE_PROJECT/File-System-Operating-System/TASK3_BBFS/fuse-tutorial (2) (1)/fuse-tutorial-2018-02-04/example/rootdir/bogus.txt"
+    lgetxattr returned -1
+    ERROR lgetxattr: No data available
+
+bb_releasedir(path="/", fi=0x98e82c40)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f2c9400a7b0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f2c9400a7b0
+    lock_owner = 0x0000000000000000
+
+bb_destroy(userdata=0xeee1b2a0)
