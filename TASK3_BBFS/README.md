@@ -9,10 +9,12 @@ The filesystem simply passes every operation down to an underlying directory, bu
 **Demo**
 After Configuring and compiling the make file,
 we mount the directories in the 'Example' folder
+
 --------------------------------------------------------
 You mount a BBFS filesystem by running the command bbfs (in general, a FUSE filesystem is implemented by a program, and you mount it by running that program). bbfs has two required arguments: the root directory (which contains the actual directory data) and the mount directory. The tutorial tarball includes an example directory, which contains two subdirectories named rootdir and mountdir. You can verify that rootdir contains a single file named bogus.txt, while mountdir is empty
 ![alt text](1.png)
 ![alt text](2.png)
+
 -----------------------------------------------------------------
 Now, if you go into the example directory and execute
 
@@ -20,6 +22,7 @@ Now, if you go into the example directory and execute
 all of the files that are really in rootdir appear to also be in mountdir"
 ![alt text](1.png)
 ![alt text](2.png)
+
 -------------------------------
 Unmounting
 Finally, you can unmount the filesystem with
