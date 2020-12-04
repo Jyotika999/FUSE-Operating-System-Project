@@ -32,23 +32,31 @@ For the above command on the Terminal,The “pkg-config” part is going to prov
 **Demo**
 -------------------------------------------------------------------------
 Using the make command first to compile the Makefile.
+![alt text](1.png)
 
 
 ------------------------------------------------------------------------
 Then change directory to Parent Directory , then create a new directory with some name, I have named it as 'MOUNT_POINT' . Also try to come inside the directory MOUNT_DIRECTORY and using 'ls' command you will notice that it will be all empty.
-
-
+![alt text](2.png)
 -------------------------------------------------------------------------
 Now to implement LSYSFS, make a new directory, I named it as 'dir0' and again it will be an empty directory which you can check by 'ls' command within the directory.
+![alt text](3.png)
 -------------------------------------------------------------------------
 Similarly, for the 'MOUNT_POINT' Directory, create a new directory and for this directory i named it as 'dir1' which will again be an empty directory which you can check by 'ls' command within that.
-
+![alt text](4.png)
 -------------------------------------------------------------------------
 Now, for creating a file within the Directory'MOUNT_POINT', we will make use of 'echo' command within a file name 'file'
 and access the components of the 'file' using 'less file' command.
+![alt text](5.png)
+![alt text](6.png)
 -----------------------------------------------------------------------
 
 Now, we can manually check that The 'MOUNT_FOLDER' have dir0, dir1 and file . also the file contents can be seen same as that we wrote using 'echo' command.
+![alt text](7.png)
+![alt text](8.png)
+
+
+
 
 
 
