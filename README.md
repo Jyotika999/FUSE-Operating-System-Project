@@ -1,4 +1,4 @@
-# File-System-Operating-System
+# File-System-Operating-System :rainbow:
 ## Simple Filesystem Using FUSE in C 
 This is about OS Project for Implementing FILE SYSTEM IN FUSE
 * **Task 1 : Implementing SSFS Simple & Stupid Filesystem (Using FUSE)**
