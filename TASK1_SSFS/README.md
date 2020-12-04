@@ -15,6 +15,11 @@ FUSE (Filesystem in Userspace)s an interface that let you write your own filesys
 
 Nothing special nor useful! it’s a read-only filesystem, there are two files on it; namely “file54” and “file349”. The user can open these files and read their contents. I’m going to call it Simple Stupid Filesystem (SSFS).
 
+**Demo**
+![alt text](1.png)
+![alt text](2.png)
+![alt text](3.png)
+![alt text](4.png)
 
 
 **All Reference from:**
