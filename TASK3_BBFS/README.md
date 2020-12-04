@@ -22,11 +22,11 @@ Now, if you go into the example directory and execute
 all of the files that are really in rootdir appear to also be in mountdir"
 ![alt text](1.png)
 ![alt text](2.png)
-
+![alt text](3.png)
 -------------------------------
 Unmounting
 Finally, you can unmount the filesystem with
-![alt text](3.png)
+
 ![alt text](4.png)
 
 -------------------------
